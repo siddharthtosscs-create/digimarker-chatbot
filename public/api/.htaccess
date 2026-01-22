@@ -1,0 +1,43 @@
+# DigiMarker API - cPanel/Apache compatibility
+#
+# Some shared hosting setups have global rewrite rules that strip ".php"
+# (e.g. redirecting "chat.php" -> "chat"). That breaks POST requests and can
+# trigger WAF/ModSecurity blocks. We keep the API endpoints accessible as-is
+# by disabling inherited rewrite rules inside this directory.
+
+Options -MultiViews
+
+<IfModule mod_rewrite.c>
+RewriteEngine Off
+</IfModule>
+
+# If ModSecurity can be disabled per-directory on your host, this prevents
+# false positives for JSON POST requests. If your host forbids this directive,
+# you may see a 500 error; in that case, remove this block and disable
+# ModSecurity from cPanel instead.
+<IfModule mod_security.c>
+SecRuleEngine Off
+</IfModule>
+
+<IfModule mod_security2.c>
+SecRuleEngine Off
+</IfModule>
+
+# Protect config.local.php from direct access
+<Files "config.local.php">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order deny,allow
+    Deny from all
+  </IfModule>
+</Files>
+
+# Optional: Protect diagnostic.php in production (uncomment if needed)
+# <Files "diagnostic.php">
+#   <IfModule mod_authz_core.c>
+#     Require all denied
+#   </IfModule>
+# </Files>
+

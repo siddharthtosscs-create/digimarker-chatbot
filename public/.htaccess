@@ -1,0 +1,19 @@
+RewriteEngine On
+
+# Correct base
+RewriteBase /digimarker/public/
+
+# -------------------------------------------------
+# 1️⃣ Allow all existing files and folders (CRITICAL)
+# -------------------------------------------------
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# -------------------------------------------------
+# 2️⃣ DO NOT rewrite anything else
+# -------------------------------------------------
+# No .php stripping
+# No .php appending
+# No clean URLs
+

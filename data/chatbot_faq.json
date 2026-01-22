@@ -1,0 +1,295 @@
+{
+  "chatbot_faq": [
+    {
+      "id": 1,
+      "question": "Digital Evaluation",
+      "answer": "",
+      "sub_faqs": [
+        {
+          "id": 1,
+          "question": "What is Digital Evaluation?",
+          "answer": "Digital Evaluation is the process of assessing student answer scripts on-screen instead of manually checking physical copies.\n\nBenefits:\n- Accuracy\n- Transparency\n- Faster results"
+        },
+        {
+          "id": 6,
+          "question": "Can I evaluate from home?",
+          "answer": "Center Evaluation: Most institutions require designated centers.\nRemote Evaluation: Allowed only if officially approved by the Board/University."
+        },
+        {
+          "id": 7,
+          "question": "Supported Browsers",
+          "answer": "- Google Chrome (Recommended)\n- Mozilla Firefox"
+        },
+        {
+          "id": 24,
+          "question": "Minimum Internet Speed",
+          "answer": "Stable 20–50 Mbps recommended."
+        },
+        {
+          "id": 25,
+          "question": "Can I use a mobile hotspot?",
+          "answer": "Not recommended.\nPrefer LAN or strong Wi‑Fi."
+        },
+        {
+          "id": 26,
+          "question": "Supported Operating Systems",
+          "answer": "- Windows 10/11\n- macOS (latest)\n- Linux (limited support)"
+        },
+        {
+          "id": 29,
+          "question": "Recommended Screen Resolution",
+          "answer": "Minimum 1366 × 768 pixels."
+        },
+        {
+          "id": 30,
+          "question": "Can I see total marks?",
+          "answer": "Displayed automatically after marking all questions."
+        },
+        {
+          "id": 31,
+          "question": "What does “Session Expire” mean?",
+          "answer": "Session ended due to inactivity.\nLog in again to continue."
+        },
+        {
+          "id": 33,
+          "question": "Access after office hours?",
+          "answer": "Yes, DigiMarker is available 24/7.\nEnsure stable internet."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Login & Access",
+      "answer": "",
+      "sub_faqs": [
+        {
+          "id": 2,
+          "question": "How do I log in to DigiMarker?",
+          "answer": "1) Use the username & password sent to your registered email.\n2) Visit the official URL / local server link.\n3) Enter credentials → Click Login."
+        },
+        {
+          "id": 3,
+          "question": "How do I access my assigned scripts for evaluation?",
+          "answer": "1) After login → Click Start to open Dashboard.\n2) Select the Subject Code with available scripts.\n3) Click Change → Message: “DEFAULT SUBJECT UPDATED SUCCESSFULLY”.\n4) Click Start Marking → Begin evaluation."
+        },
+        {
+          "id": 4,
+          "question": "Not Receiving Email or OTP?",
+          "answer": "Try these steps:\n- Check your Inbox (OTP emails may go to Spam/Junk)\n- Ensure you are using the registered email ID / mobile number\n- Wait 2–5 minutes (server delay/queue)\n- Ensure internet is stable and inbox isn’t full\n- If still not received, contact Help Desk/Admin"
+        },
+        {
+          "id": 8,
+          "question": "Troubleshooting Login Errors",
+          "answer": "If login fails:\n- Check username/password carefully\n- Use stable Wi‑Fi or LAN (avoid hotspots)\n- Clear browser cache & cookies, then retry\n- System date/time must be correct\n- If account is locked, contact Help Desk/Admin\n- Ensure firewall/antivirus is not blocked."
+        },
+        {
+          "id": 20,
+          "question": "System error: Date & Time",
+          "answer": "Cause: Incorrect system clock.\nSolution:\n1) Right-click clock → Change Date/Time\n2) Sync with Internet Time\n3) Save & retry login"
+        },
+        {
+          "id": 28,
+          "question": "How to ensure correct Date & Time?",
+          "answer": "Sync with Internet Time.\nWrong time may block DigiMarker access."
+        },
+        {
+          "id": 21,
+          "question": "Forgot Password?",
+          "answer": "Use the Forgot Password option, or contact Help Desk."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Marking & Tools",
+      "answer": "",
+      "sub_faqs": [
+        {
+          "id": 5,
+          "question": "What if the marking panel is not showing after right-click?",
+          "answer": "For the marking panel to appear:\n1) First select/click the particular question number in the script panel.\n2) Then right-click on that question area.\n3) The marking panel will pop up (options to enter marks, comments, etc.).\n\nIf you right-click on blank space/outside the question area, the marking panel will not show."
+        },
+        {
+          "id": 9,
+          "question": "How do I mark answers?",
+          "answer": "1) Select Question Number.\n2) Right-click → Enter marks.\n3) Marks auto-save & totals are auto-calculated."
+        },
+        {
+          "id": 10,
+          "question": "Can I change marks?",
+          "answer": "Yes:\n- Select the question → Use Undo to remove.\n- Re-enter marks → Auto-saved & re-totaled."
+        },
+        {
+          "id": 11,
+          "question": "What if a page is blank?",
+          "answer": "Use the Cross-Annotation Tool.\nThe system records it as 0 automatically."
+        },
+        {
+          "id": 12,
+          "question": "How is totaling handled?",
+          "answer": "DigiMarker auto-calculates totals.\n\nEnsure every question is marked before submission."
+        },
+        {
+          "id": 14,
+          "question": "What if I skip a question?",
+          "answer": "Warning: “You have not marked all questions and pages.”\n\nReview the script carefully before submission."
+        },
+        {
+          "id": 15,
+          "question": "What if the student leaves questions unattempted?",
+          "answer": "Always record “0” marks with remark “NA” instead of leaving it blank, so the system registers it as evaluated.\nOtherwise, the system will flag it during submission with a message like:\n“You have not marked these questions.”"
+        },
+        {
+          "id": 36,
+          "question": "Annotations Toolbar",
+          "answer": "Tools available at the top of the screen:\n- Right Tick – Correct answers\n- Wrong Sign – Incorrect answers\n- Question Mark – Doubtful answers\n- Comment Box – Add notes\n- Rectangle / Circle – Highlight areas\n- Undo / Redo actions"
+        },
+        {
+          "id": 38,
+          "question": "Facility to Rotate Answer Sheet",
+          "answer": "Rotate scanned answer sheets for best viewing angle.\nEnsures clear visibility, making evaluation smoother & faster."
+        },
+        {
+          "id": 56,
+          "question": "How to view QUESTION PAPER or MODEL ANSWER",
+          "answer": "When you open the Answer Script, you will see two tabs beside it:\n- QUESTION PAPER → Opens the exam paper.\n- MODEL ANSWER → Opens the official answer key.\n\nHow to view:\n1) Open your answer script in the portal.\n2) On the top/right side, click QUESTION PAPER or MODEL ANSWER.\n3) The file will open."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Submission & Rejection",
+      "answer": "",
+      "sub_faqs": [
+        {
+          "id": 16,
+          "question": "How do I reject an answer sheet?",
+          "answer": "1) Click Reject (top-right corner toolbar).\n2) Select reason:\n- Wrong Language\n- Wrong Set\n- Wrong Subject\n- Blurred Pages\n- Incomplete Script"
+        },
+        {
+          "id": 37,
+          "question": "Reject Option (Detailed)",
+          "answer": "Use Reject (top-right corner) when a script cannot be evaluated.\nSelect valid reason (e.g., Wrong Subject, Blurred Scan, Incomplete Script).\nThe script is removed from dashboard & reassigned by Admin."
+        },
+        {
+          "id": 17,
+          "question": "How do I confirm submission?",
+          "answer": "Click Submit Evaluation.\nConfirmation: “Sheet Successfully Saved.”\nScript disappears from dashboard."
+        },
+        {
+          "id": 18,
+          "question": "Unable to save answer sheet?",
+          "answer": "Cause: Poor internet speed.\nSolution:\n- Avoid mobile hotspots\n- Use Wi‑Fi or LAN\n- Restart router if needed"
+        },
+        {
+          "id": 19,
+          "question": "Logged out or unable to save?",
+          "answer": "Often due to unstable internet.\n- Avoid mobile hotspots\n- Use Wi‑Fi or LAN\n- Restart router if needed"
+        },
+        {
+          "id": 34,
+          "question": "Error: “No more sheet showing” – Case 1",
+          "answer": "All assigned scripts have been evaluated.\nConfirm with Help Desk if quota is complete."
+        },
+        {
+          "id": 35,
+          "question": "Error: “No more sheet showing” – Case 2",
+          "answer": "Causes:\n1) Answer scripts assigned to multiple markers → Contact Help Desk to unassign from inactive markers\n2) Question paper marking not completed → Ask Admin to complete setup → Refresh & continue"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Technical Issues",
+      "answer": "",
+      "sub_faqs": [
+        {
+          "id": 13,
+          "question": "System hangs or crashes?",
+          "answer": "Auto-save is active.\nRe-login and continue.\nIf issue persists → Contact Help Desk."
+        },
+        {
+          "id": 27,
+          "question": "System crash during marking?",
+          "answer": "Save work → Restart → Re-login.\nIf scripts are missing → Contact support."
+        },
+        {
+          "id": 32,
+          "question": "Error: “Network Not Available”",
+          "answer": "Check internet, switch network, and retry login."
+        },
+        {
+          "id": 60,
+          "question": "The application is not loading or working slow. What should I do?",
+          "answer": "Try the following steps:\n- Refresh the page\n- Clear your browser cache and cookies\n- Try opening the application in a different browser\nIf the issue persists, please contact the Help Desk for support."
+        },
+        {
+          "id": 61,
+          "question": "I am getting an error message. What should I do?",
+          "answer": "If you encounter an error message:\n- Take a clear screenshot of the error\n- Raise a Help Desk ticket with:\n  - Date and time of the issue\n  - Action being performed when the error occurred\n  - Screenshot of the error message\n\nThis will help the support team resolve your issue faster."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Roles & Guidelines",
+      "answer": "",
+      "sub_faqs": [
+        {
+          "id": 39,
+          "question": "Role of Head Marker in Digital Evaluation",
+          "answer": "Acts as second-level evaluator after examiners.\nRe-checks answer sheets for fairness, consistency & quality control."
+        },
+        {
+          "id": 40,
+          "question": "Head Marker & Deputy Head Marker Assignment Criteria",
+          "answer": "Assigned based on university/institution guidelines.\nSelection depends on subject expertise, experience & academic requirements."
+        },
+        {
+          "id": 41,
+          "question": "Role of Deputy Head Marker in Digital Evaluation",
+          "answer": "Acts as first-level evaluator after examiners.\nRe-checks answer sheets for fairness, consistency & quality control.\nBlue colour mark/notation indicates the booklet has been rechecked by the Deputy."
+        },
+        {
+          "id": 42,
+          "question": "Role of Head Marker in Digital Evaluation (after Deputy Head Marker)",
+          "answer": "Acts as second-level evaluator after Deputy Head Marker.\nRe-checks answer sheets for fairness, consistency & quality control.\nRed colour mark/notation indicates the booklet has been rechecked by the Head Marker."
+        },
+        {
+          "id": 43,
+          "question": "Do’s & Don’ts for Evaluators",
+          "answer": "Do’s:\n- Follow official marking guidelines\n- Maintain confidentiality\n- Use system features correctly (annotations, reject, submit)\n- Report issues promptly\n- Ensure date, time & internet are correct\n\nDon’ts:\n- Do not share login credentials\n- Do not alter marks/data outside DigiMarker\n- Avoid unauthorized devices/networks\n- Do not discuss/share student scripts/marks outside official channels\n- Do not leave the system unattended while logged in"
+        },
+        {
+          "id": 23,
+          "question": "Precautions while evaluating",
+          "answer": "- Do not share login credentials\n- Don’t leave system unattended\n- Save work frequently\n- Follow official evaluation guidelines"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Help Desk & Reports",
+      "answer": "",
+      "sub_faqs": [
+        {
+          "id": 22,
+          "question": "Whom to contact for technical issues?",
+          "answer": "Help Desk at Command Center – First point of contact for all login, access, or technical issues."
+        },
+        {
+          "id": 59,
+          "question": "What are the Help Desk working hours?",
+          "answer": "The Help Desk is available Monday to Friday, from 9:30 AM to 6:30 PM.\nClosed on weekends and government holidays."
+        },
+        {
+          "id": 57,
+          "question": "How to Download Date-wise Checked Booklets Count from evaluator login",
+          "answer": "1) Login to the Dashboard.\n2) Go to Date-wise Checked Booklets.\n3) Click Export.\nFile will download with date-wise checked booklets count."
+        }
+      ]
+    }
+  ]
+}
+
+

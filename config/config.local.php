@@ -6,7 +6,7 @@
 
 return [
   // Get a key from Google AI Studio.
-  'GEMINI_API_KEY' => 'AIzaSyBMp_GBY69XK6GLgYJjP8miAdzPUlEj1Kw',
+  'GEMINI_API_KEY' => 'enter_gemini_api_key',
 
   // Optional: protect your chat API with an internal key.
   // 'DIGIMARKER_CHAT_API_KEY' => 'YOUR_INTERNAL_KEY',
